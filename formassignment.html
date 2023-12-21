@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmeforms</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <fieldset>
+                <legend>Your address</legend>
+                <div class="row">
+                    <label for="text">First name</label>
+                    <input type="text" name="name" required class="row i"><br />
+                </div>
+                <div class="row">
+                    <label for="text">Last name</label>
+                    <input type="text" name="name" required><br />
+                </div>
+                <div class="row">
+                    <label for="text">Street</label>
+                    <input type="text" name="address" required><br />
+                </div>
+                <div class="row">
+                    <label for="text">City</label>
+                    <input type="text" name="town" required><br />
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Additional details</legend>
+                <div class="row">
+                    <label for="message">Biography</label>
+                    <textarea name="message" id="message" cols="20" rows="2" required></textarea>
+                </div>
+                <div class="row">
+                    <label for="">Image</label>
+                    <input type="file" />
+                </div>
+                <div class="row">
+                    <label for="quality">Age Group</label>
+                    <input type="number" name="age group" id="quality" min="0" max="9" placeholder="0 to 9 years">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Interests</legend>
+                <div class="row">
+                    <label for="Hobbies"> Hobbies</label>
+                    <textarea name="Hobbies" id="new-text">
+                    </textarea>
+                </div>
+                <div class="row">
+                    <label for="quality">Age Group</label>
+                    <input type="number" name="age group" id="quality" min="0" max="9" placeholder="0 to 9 years">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
