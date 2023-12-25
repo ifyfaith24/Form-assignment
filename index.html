@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmeforms</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post" width="100%">
+            <fieldset>
+                <legend>Your address</legend>
+                <div class="row">
+                    <label for="fname">First name        </label>
+                    <input type="text" name="fname" required><br />
+                </div>
+                <div class="row">
+                    <label for="lname">Last name</label>
+                    <input type="text" name="lname" required><br />
+                </div>
+                <div class="row">
+                    <label for="street">Street</label>
+                    <input type="text" name="street" required><br />
+                </div>
+                <div class="row">
+                    <label for="city">City</label>
+                    <input type="text" name="city" required><br />
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Additional details</legend>
+                <div class="row">
+                    <label for="message">Biography</label>
+                    <textarea name="message" id="" required></textarea>
+                </div>
+                <div class="row">
+                    <label for="">Image</label>
+                    <input type="file" />
+                </div>
+                <div class="row">
+                    <label for="number">Age Group</label>
+                    <input type="number" name="age group" min="0" max="9" placeholder="0 to 9 years">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Interests</legend>
+                <div class="row">
+                    <label for="Hobbies"> Hobbies</label>
+                    <textarea name="Hobbies" id="new-text">
+                    </textarea>
+                </div>
+                <div class="row">
+                    <label for="">Favourite car?</label>
+                    <select name="Cars" class="new-txt">
+                        <option value="Volvo">Volvo</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Toyota">Toyota</option>
+                    </select>
+                </div>
+                <div class="row ">
+                    <label for="">Favourite public transport?</label>
+                    <select name="" id="" class="new-txt">
+                <optgroup label="Ground"></optgroup>
+                <option value="Train">Train</option>
+                <option value="Bus">Bus</option>
+                <optgroup label="Water"></optgroup>
+                <option value="Train">ship</option>
+                    </select>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

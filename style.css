@@ -1,5 +1,5 @@
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
@@ -10,7 +10,7 @@
 .row {
     display: flex;
     justify-content: space-between;
-    margin: 3px;
+    margin: 10px;
 }
 
 .row label {
@@ -20,11 +20,11 @@
 
 .row input {
     flex: 2;
-    width: 100;
+    width: 20%;
     padding: 8px;
     border: 2px solid #151414;
     border-radius: 4px;
-    margin-right: 250px;
+    margin-right: 350px;
 }
 
 .row textarea {
@@ -34,7 +34,7 @@
     border: 2px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-    margin-right: 250px;
+    margin-right: 350px;
     box-sizing: border-box;
 }
 
@@ -43,4 +43,13 @@
     resize: none;
     height: 100px;
     width: 10px;
+}
+
+.new-txt {
+    flex: 2;
+    width: 20%;
+    padding: 8px;
+    border: 2px solid #151414;
+    border-radius: 4px;
+    margin-right: 350px;
 }
