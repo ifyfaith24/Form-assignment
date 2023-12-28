@@ -38,13 +38,6 @@
     box-sizing: border-box;
 }
 
-#new-text {
-    box-sizing: border-box;
-    resize: none;
-    height: 100px;
-    width: 10px;
-}
-
 .new-txt {
     flex: 2;
     width: 20%;

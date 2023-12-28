@@ -42,15 +42,31 @@
                 </div>
                 <div class="row">
                     <label for="number">Age Group</label>
-                    <input type="number" name="age group" min="0" max="9" placeholder="0 to 9 years">
+                    <select name="age" class="new-txt">
+                        <option value="disabled selected hidded">0 to 9 Years</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
                 </div>
             </fieldset>
             <fieldset>
                 <legend>Interests</legend>
                 <div class="row">
                     <label for="Hobbies"> Hobbies</label>
-                    <textarea name="Hobbies" id="new-text">
-                    </textarea>
+                    <select name="Hobbies" class="new-txt" size="4" multiple>
+                        <option value="Playing soccer">Playing soccer</option>
+                        <option value="Dancing">Dancing</option>
+                        <option value="Gardening">Gardening</option>
+                        <option value="Watching movies">Watchong movies</option>
+                    </select>
                 </div>
                 <div class="row">
                     <label for="">Favourite car?</label>
@@ -62,12 +78,11 @@
                 </div>
                 <div class="row ">
                     <label for="">Favourite public transport?</label>
-                    <select name="" id="" class="new-txt">
-                <optgroup label="Ground"></optgroup>
-                <option value="Train">Train</option>
-                <option value="Bus">Bus</option>
-                <optgroup label="Water"></optgroup>
-                <option value="Train">ship</option>
+                    <select name="" class="new-txt" size="4" multiple>
+                        <optgroup label="Ground"></optgroup>           
+                        <option value="Train">Train</option>               
+                        <option value="Bus">Bus</option>        
+                        <optgroup label="Water"></optgroup>
                     </select>
                 </div>
             </fieldset>
